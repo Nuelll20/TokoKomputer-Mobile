@@ -4,7 +4,7 @@ enum class DeviceType(
     val label: String,
     val basePrice: Long
 ){
-    DEKSTOP("Komputer Dekstop", 1_500_000L),
+    DESKTOP("Komputer Dekstop", 1_500_000L),
     NOTEBOOK("Notebook", 3_500_000L)
 }
 
@@ -53,9 +53,9 @@ enum class MonitorOption(
     NOTEBOOK_14("14 inci", 1_200_200L, DeviceType.NOTEBOOK),
     NOTEBOOK_15("15,6 inci", 1_500_000L, DeviceType.NOTEBOOK),
     NOTEBOOK_16("16 inci", 1_900_000L, DeviceType.NOTEBOOK),
-    DEKSTOP_22("22 inci", 1_600_000L, DeviceType.DEKSTOP),
-    DEKSTOP_24("24 inci", 2_000_000L, DeviceType.DEKSTOP),
-    DEKSTOP_27("27 inci", 3_000_000L, DeviceType.DEKSTOP)
+    DESKTOP_22("22 inci", 1_600_000L, DeviceType.DESKTOP),
+    DESKTOP_24("24 inci", 2_000_000L, DeviceType.DESKTOP),
+    DESKTOP_27("27 inci", 3_000_000L, DeviceType.DESKTOP)
 }
 
 enum class GraphicsCardOption(

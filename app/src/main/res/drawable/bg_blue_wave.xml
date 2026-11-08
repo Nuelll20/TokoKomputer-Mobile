@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background utama: gradasi merah-coklat -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="270"
+                android:startColor="#4E0D0D"
+                android:centerColor="#6E1717"
+                android:endColor="#9A4E2E" />
+        </shape>
+    </item>
+
+    <!-- Overlay wave gelap di bagian atas -->
+    <item>
+        <vector
+            android:width="360dp"
+            android:height="320dp"
+            android:viewportWidth="360"
+            android:viewportHeight="320">
+
+            <!-- Area gelombang atas -->
+            <path
+                android:fillColor="#6A1414"
+                android:pathData="M0,0 H360 V165
+                C326,144 288,134 248,140
+                C203,147 174,167 126,175
+                C76,183 38,176 0,160 Z" />
+
+            <!-- Bubble / dekorasi -->
+            <path
+                android:fillColor="#8D2626"
+                android:pathData="M314,28m-16,0a16,16 0,1 1,32 0a16,16 0,1 1,-32 0" />
+
+            <path
+                android:fillColor="#7A1E1E"
+                android:pathData="M255,88m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0" />
+
+            <path
+                android:fillColor="#812121"
+                android:pathData="M300,122m-26,0a26,26 0,1 1,52 0a26,26 0,1 1,-52 0" />
+
+            <path
+                android:fillColor="#7A1E1E"
+                android:pathData="M69,210m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0" />
+
+            <path
+                android:fillColor="#862222"
+                android:pathData="M112,220m-36,0a36,24 0,1 1,72 0a36,24 0,1 1,-72 0" />
+
+            <path
+                android:fillColor="#7B1F1F"
+                android:pathData="M313,175m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0" />
+        </vector>
+    </item>
+
+</layer-list>

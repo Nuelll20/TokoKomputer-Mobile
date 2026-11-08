@@ -182,18 +182,6 @@
                         android:background="#B58672" />
                 </LinearLayout>
 
-                <Button
-                    android:id="@+id/btnSignUp"
-                    android:layout_width="match_parent"
-                    android:layout_height="46dp"
-                    android:background="@drawable/bg_button_secondary_red"
-                    android:enabled="false"
-                    android:stateListAnimator="@null"
-                    android:text="Sign up"
-                    android:textAllCaps="false"
-                    android:textColor="#EED3C4"
-                    android:textSize="12sp"
-                    android:fontFamily="sans-serif-medium" />
 
                 <TextView
                     android:layout_width="match_parent"

@@ -127,8 +127,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="9dp"
                     android:gravity="end"
-                    android:text="Forgot password?"
-                    android:textColor="#F6D8C5"
+
+
                     android:textSize="11sp"
                     android:fontFamily="sans-serif-medium" />
 
